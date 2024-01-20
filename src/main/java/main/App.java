@@ -18,7 +18,7 @@ public class App {
 
                 switch(i) {
                     case 1:
-                    System.out.println("Mitä siili sanoo: ");
+                    System.out.println("Mitä siili sanoo:");
                     String saying = sc.nextLine();
                     if(saying.isEmpty()){
                         hedgehog.printName();
@@ -30,9 +30,9 @@ public class App {
                     break;
 
                     case 2:
-                    System.out.println("Anna siilin nimi: ");
+                    System.out.println("Anna siilin nimi:");
                     String name = sc.nextLine();
-                    System.out.println("Anna siilin ikä: ");
+                    System.out.println("Anna siilin ikä:");
                     String ageString = sc.nextLine();
                     int age = Integer.parseInt(ageString);
 
@@ -40,7 +40,7 @@ public class App {
                     break;
 
                     case 3:
-                    System.out.println("Kuinka monta kierrosta? ");
+                    System.out.println("Kuinka monta kierrosta?");
                     String roundsString = sc.nextLine();
                     int rounds = Integer.parseInt(roundsString);
                     for(int x = 1; x<=rounds; x++){
